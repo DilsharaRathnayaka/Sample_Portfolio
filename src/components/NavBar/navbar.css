@@ -13,10 +13,12 @@
     z-index: 3;
 }
 
-.logo {
-    object-fit: cover;
-    height: 3rem;
-    width: 4rem;
+.Develop {
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: yellow;
+    
 }
 
 
