@@ -28,13 +28,21 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100vw;
-    max-width: 65rem;
+    max-width: 200rem;
 }
 
 .worksImg {
     object-fit: cover;
     height: 20rem;
     margin: 0.5rem;
+}
+
+..image-container{
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
 }
 
 .workBtn {
