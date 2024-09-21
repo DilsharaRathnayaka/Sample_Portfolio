@@ -4,7 +4,7 @@ import bg from '../../assets/image.png';
 import btnImg from '../../assets/hireme.png';
 import { Link } from 'react-scroll';
 import Typewriter from 'typewriter-effect';
-import { AiOutlineGithub, AiFillLinkedin, AiOutlineMail} from 'react-icons/ai';
+import { AiOutlineGithub, AiFillLinkedin, AiOutlineWhatsApp} from 'react-icons/ai';
 
 const Intro = () => {
   return (
@@ -27,8 +27,8 @@ const Intro = () => {
             <a href="http://linkedin.com/in/rmnd-rathnayaka" target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin size={30} style={{ color: 'white' }} />
             </a>
-            <a href="mailto:nethminidilshara748@gmail.com">
-            <AiOutlineMail size={30} style={{ color: 'white' }} />
+            <a href="https://wa.me/94741381394" target="_blank" rel="noopener noreferrer">
+            <AiOutlineWhatsApp size={30} style={{ color: 'white' }} />
             </a>
     </div>
             

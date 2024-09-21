@@ -8,18 +8,17 @@ const Navbar = () => {
     <nav className = "navbar">
         <span className ="Develop">Develop By Nethmini</span>
         <div className= "desktopMenu">
-            <Link className = "desktopMenuListItem">Home</Link>
-            <Link className = "desktopMenuListItem">About</Link>
-            <Link className = "desktopMenuListItem">Portfolio</Link>
-            <Link className = "desktopMenuListItem">Clients</Link>
+            <Link activeClass='active' to="intro" spy={true} smooth={true} offset={-100} duration={500} className = "desktopMenuListItem">Home</Link>
+            <Link activeClass='active' to="skills" spy={true} smooth={true} offset={-50} duration={500} className = "desktopMenuListItem">About</Link>
+            <Link activeClass='active' to="works" spy={true} smooth={true} offset={-50} duration={500} className = "desktopMenuListItem">Portfolio</Link>
+            <Link activeClass='active' to="contact" spy={true} smooth={true} offset={-50} duration={500} className = "desktopMenuListItem">Contact</Link>
         </div>
       
-        <a
-          href="https://drive.google.com/" download={'Nethmini CV'}
-        >
+        
+
         <button className = "desktopMenuBtn">
-        <img src = { contactImg } alt="" className ="desktopMenuImg"/>Resume</button>
-        </a>
+        <img src = { contactImg } alt="" className ="desktopMenuImg"/>
+        <a href="/Nethmini.pdf" download="Nethmini" className='DesktopMenuBtnTxt'>Resume</a></button>
       
     </nav>
   )

@@ -46,10 +46,21 @@
     padding: 0 1rem;
     border-radius: 2rem;
 }
+.DesktopMenuBtnTxt{
+    color: black;
+}
+
+.DesktopMenuBtnTxt:hover {
+    color: rgb(190, 190, 11);
+  }
 
 .desktopMenuImg {
     object-fit: cover;
     height: 1rem;
     width: 1rem;
     margin: 1rem;
+}
+
+.active {
+    color: yellow;
 }

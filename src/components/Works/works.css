@@ -2,7 +2,7 @@
     margin: 0 auto;
     min-height: calc(100vh - 4rem);
     width: 100vw;
-    max-width: 60rem;
+    max-width: 85rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,9 +25,11 @@
 /* Main container for the project cards */
 .project-container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 2.5rem; /* Similar to gap-10 */
     padding: 2.5rem; /* Similar to p-10 */
+    justify-content: center;
   }
   
   @media (min-width: 1024px) {
@@ -39,28 +41,33 @@
   
   /* Each card's container */
   .project-card {
-    flex: 1;
-    flex-basis: 25%; /* Similar to basis-1/4 */
+    flex: 0 1 20%;
+    max-width: 25%;
   }
   
   /* Card styling */
   .card {
-    max-width: 32rem; /* Similar to max-w-lg */
-    background-color: #ffffff; /* Similar to bg-white */
-    border: 1px solid #e5e7eb; /* Similar to border-gray-200 */
+    background-color: rgb(50, 50, 50); /* Similar to bg-white */
+    border: 1px solid rgb(50, 50, 50); /* Similar to border-gray-200 */
     border-radius: 0.5rem; /* Similar to rounded-lg */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Similar to shadow */
     overflow: hidden;
-    transition: transform 0.3s ease-in-out; /* For smooth hover effect */
+    transition: transform 0.2s ease-in-out; /* For smooth hover effect */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
   /* Image inside the card */
   .card-img {
-    padding: 2.5rem; /* Similar to p-10 */
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
-    width: 100%;
-    display: block;
+    width: 80%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    object-fit: cover;
+    margin-top: 0.8rem;
   }
 
 
@@ -68,6 +75,11 @@
   /* Card content */
   .card-content {
     padding: 1.25rem; /* Similar to p-5 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+
   }
   
   /* Card title */
@@ -75,21 +87,29 @@
     margin-bottom: 0.5rem; /* Similar to mb-2 */
     font-size: 1.5rem; /* Similar to text-2xl */
     font-weight: bold; /* Similar to font-bold */
-    color: #1f2937; /* Similar to text-gray-900 */
+    color: white; /* Similar to text-gray-900 */
+    
   }
   
   /* Card subtitle */
   .card-subtitle {
     margin-bottom: 0.75rem; /* Similar to mb-3 */
     font-size: 1rem; /* Similar to font-normal */
-    color: #4b5563; /* Similar to text-gray-700 */
+    color: #cadaef; /* Similar to text-gray-700 */
   }
   
   /* Card description */
   .card-description {
     font-size: 0.875rem; /* Similar to text-sm */
     margin-bottom: 0.75rem; /* Similar to mb-3 */
-    color: #e5e7eb; /* Similar to text-gray-200 */
+    color: #938d8d; /* Similar to text-gray-200 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient:vertical ;
+    
+
+
   }
 
   .link-button {
@@ -99,8 +119,9 @@
     color: inherit;
     font: inherit;
     cursor: pointer;
-    text-align: left;
+    text-align: center;
     display: inline;
+    
   }
   
   

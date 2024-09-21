@@ -1,0 +1,52 @@
+.contact-footer {
+    border-top: 2px solid black;
+    font-size: 0.875rem;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
+  }
+  
+  /* Contact Information Styling */
+  .contact-info {
+    text-align: center;
+  }
+  
+  /* Contact Title Styling */
+  .contact-title {
+    font-weight: 900;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Description Styling */
+  .contact-description {
+    opacity: 0.4;
+  }
+  
+  /* Copyright Styling */
+  .contact-copyright {
+    opacity: 0.4;
+  }
+  
+  /* Social Media Icons Container */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 1.25rem;
+  }
+  
+  /* Individual Social Media Icon Styling */
+  .social-icon {
+    font-size: 2.5rem;
+    color: #b2a4a4;
+    transition: color 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: white;
+  }
