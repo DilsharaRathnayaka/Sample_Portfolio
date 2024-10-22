@@ -18,7 +18,7 @@ const Navbar = () => {
 
         <button className = "desktopMenuBtn">
         <img src = { contactImg } alt="" className ="desktopMenuImg"/>
-        <a href="/Nethmini.pdf" download="Nethmini" className='DesktopMenuBtnTxt'>Resume</a></button>
+        <a href="/Nethmini Dilshara Portfolio.pdf" download="Nethmini" className='DesktopMenuBtnTxt'>Resume</a></button>
       
     </nav>
   )
