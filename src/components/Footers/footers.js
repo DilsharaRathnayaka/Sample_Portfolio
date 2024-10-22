@@ -9,7 +9,7 @@ const Footers = () => {
             <h3 className="contact-title">Contact me for more details</h3>
             <p className="contact-description">Designed & Built by Nethmini Dilshara</p>
             <p className="contact-copyright">
-              Copyright © 2023 developByNethmini Inc. All rights reserved.
+              Copyright © 2023 develop By Nethmini. All rights reserved.
             </p>
           </div>
           <div className="social-icons">
