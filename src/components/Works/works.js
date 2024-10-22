@@ -56,7 +56,7 @@ const Works = () => {
           </Link>
         </div>
 
-        {/* Tiny Care Card */}
+        {/* SmartLib Card */}
         <div className="project-card">
         <Link to="https://github.com/DilsharaRathnayaka/Library_Management_System">
           <motion.div whileHover={{ scale: 1.2 }} className="card">
@@ -65,11 +65,11 @@ const Works = () => {
             </button>
             <div className="card-content">
               <button className="link-button">
-                <h5 className="card-title">Tiny Care</h5>
+                <h5 className="card-title">SmartLib</h5>
               </button>
-              <p className="card-subtitle">Flutter | Laravel | Individual | Ongoing</p>
+              <p className="card-subtitle">ReactJS | CSS | Tailwind CSS | Group | Ongoing</p>
               <p className="card-description">
-                This is a Mobile application for baby health care with amazing UI.
+                This is a web application for library management system. 
               </p>
             </div>
           </motion.div>
