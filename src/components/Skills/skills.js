@@ -10,7 +10,7 @@ const Skills = () => {
         <span className="skillTitle">What I do</span>
         <span className="skillDesc">
             I am a skilled and passionate web designer with experience in creating visually appealing and user-friendly websites. 
-            I have a strong understanding of design and a keen eye for detail. I am proficient in HTML, CSS, React, and JavaScript.
+            I have a strong understanding of design and a keen eye for detail. I am proficient in React, HTML, CSS, and JavaScript.
         </span>
         <div className="skillBars">
             <div className="skillBar">
