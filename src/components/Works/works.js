@@ -69,7 +69,7 @@ const Works = () => {
               </button>
               <p className="card-subtitle">ReactJS | CSS | Tailwind CSS | Group | Ongoing</p>
               <p className="card-description">
-                This is a web application for library management system. 
+              E-library system for efficient book management and user traking.
               </p>
             </div>
           </motion.div>
@@ -89,7 +89,7 @@ const Works = () => {
               </button>
               <p className="card-subtitle">HTML | CSS | JavaScript | Individual</p>
               <p className="card-description">
-                This is a Mobile application for baby health care with amazing UI.
+              Developed a travel information website featuring destination highlights.
               </p>
             </div>
           </motion.div>
